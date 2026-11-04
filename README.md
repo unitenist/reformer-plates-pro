@@ -12,6 +12,8 @@ Randevu, üyelik, eğitmen ve egzersiz yönetimini tek bir arayüzde toplar.
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3-06B6D4?logo=tailwindcss&logoColor=white)
 ![shadcn/ui](https://img.shields.io/badge/shadcn%2Fui-000000?logo=shadcnui&logoColor=white)
 
+🔗 **[Canlı Demo →](https://reformer-plates-pro-wmtj.vercel.app)**
+
 ⭐ Projeyi faydalı bulduysan yukarıdan yıldız vermeyi unutma!
 
 </div>
