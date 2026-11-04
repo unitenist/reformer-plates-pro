@@ -1,73 +1,76 @@
-# Welcome to your Lovable project
+<div align="center">
 
-## Project info
+# 🧘 Reformer Pilates Pro
 
-**URL**: https://lovable.dev/projects/908abf3b-9b19-477e-a02b-c8fa3f474acb
+**Reformer pilates stüdyoları için modern yönetim ve üye uygulaması**
 
-## How can I edit this code?
+Randevu, üyelik, eğitmen ve egzersiz yönetimini tek bir arayüzde toplar.
 
-There are several ways of editing your application.
+![React](https://img.shields.io/badge/React-18-61DAFB?logo=react&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-5-646CFF?logo=vite&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3-06B6D4?logo=tailwindcss&logoColor=white)
+![shadcn/ui](https://img.shields.io/badge/shadcn%2Fui-000000?logo=shadcnui&logoColor=white)
 
-**Use Lovable**
+⭐ Projeyi faydalı bulduysan yukarıdan yıldız vermeyi unutma!
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/908abf3b-9b19-477e-a02b-c8fa3f474acb) and start prompting.
+</div>
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+## ✨ Özellikler
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+| Modül | Açıklama |
+|---|---|
+| 📊 **Kontrol Paneli** | Günlük randevular, aktif üyeler ve stüdyo özeti |
+| 📅 **Randevular** | Reformer seanslarını planlama ve takip |
+| 🏋️ **Egzersiz Kütüphanesi** | Egzersiz listesi ve detay sayfaları |
+| 👩‍🏫 **Eğitmenler** | Eğitmen profilleri ve uzmanlık alanları |
+| 💳 **Üyelikler** | Paketler ve üyelik planları |
+| 👤 **Profil** | Kullanıcı bilgileri ve ayarlar |
+| 🔐 **Kayıt / Giriş** | Üye kayıt ve oturum ekranları |
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 🚀 Hızlı Başlangıç
 
-Follow these steps:
+Gereksinim: Node.js 18+ ve npm.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+```bash
+git clone https://github.com/unitenist/reformer-plates-pro.git
+cd reformer-plates-pro
+npm install
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+## 🛠️ Komutlar
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+| Komut | Açıklama |
+|---|---|
+| `npm run dev` | Geliştirme sunucusunu başlatır |
+| `npm run build` | Üretim derlemesi alır |
+| `npm run preview` | Derlemeyi yerelde önizler |
+| `npm run lint` | ESLint kontrolü yapar |
 
-**Use GitHub Codespaces**
+## 📁 Proje Yapısı
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+```
+src/
+├── components/   # Ortak arayüz bileşenleri
+├── hooks/        # Özel React hook'ları
+├── lib/          # Yardımcı fonksiyonlar
+└── pages/        # Dashboard, Appointments, Exercises, Instructors, Memberships …
+```
 
-## What technologies are used for this project?
+## 🤝 Katkıda Bulunma
 
-This project is built with:
+Katkılar memnuniyetle karşılanır!
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+1. Repoyu fork'la
+2. Yeni bir branch aç: `git checkout -b feature/yeni-ozellik`
+3. Değişikliklerini commit'le: `git commit -m "feat: yeni özellik"`
+4. Branch'i push'la ve bir Pull Request aç
 
-## How can I deploy this project?
+Hata bulursan ya da bir fikrin varsa [issue açabilirsin](https://github.com/unitenist/reformer-plates-pro/issues).
 
-Simply open [Lovable](https://lovable.dev/projects/908abf3b-9b19-477e-a02b-c8fa3f474acb) and click on Share -> Publish.
+## 📄 Lisans
 
-## Can I connect a custom domain to my Lovable project?
-
-Yes it is!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Bu proje [MIT Lisansı](LICENSE) ile dağıtılmaktadır.
